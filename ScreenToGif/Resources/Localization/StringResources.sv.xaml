@@ -99,7 +99,7 @@
     <s:String x:Key="S.Command.KeyStrokes">Tangenttryckningar: infogar knapptryckningar i inspelningen</s:String>
     <s:String x:Key="S.Command.FreeDrawing">Rita fritt</s:String>
     <s:String x:Key="S.Command.Shapes">Lägg till former</s:String>
-    <s:String x:Key="S.Command.MouseClicks">Musklick</s:String>
+    <s:String x:Key="S.Command.MouseEvents">Musklick</s:String>
     <s:String x:Key="S.Command.Watermark">Välj en bild och lägg till den som vattenstämpel</s:String>
     <s:String x:Key="S.Command.Border">Lägg till kant</s:String>
     <s:String x:Key="S.Command.Shadow">Lägg till skugga</s:String>
@@ -132,7 +132,7 @@
     <s:String x:Key="S.StartUp.Editor">Redigerare</s:String>
     <s:String x:Key="S.StartUp.Editor.Tooltip">Öppnar redigeringsfönstret, den centrala punkten i denna applikation, där du kan starta och redigera en ny inspelning.</s:String>
     <s:String x:Key="S.StartUp.Options">Alternativ</s:String>
-    <s:String x:Key="S.StartUp.NewRelease">Ny version tillgänglig • {0}</s:String>
+    <s:String x:Key="S.StartUp.NewRelease">Ny version tillgänglig</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Laddar ner den senaste versionen av ScreenToGif.</s:String>
 
     <!--Updater-->
@@ -247,7 +247,7 @@
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Interval">Each frame will be captured in interval of {0}.</s:String>-->
     
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
-    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no aditional plug-ins.</s:String>-->
+    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no additional plug-ins.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File">Save to&#10;file</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
@@ -1093,6 +1093,7 @@
     <s:String x:Key="S.Caption.Weight">Vikt:</s:String>
     <s:String x:Key="S.Caption.Size">Storlek:</s:String>
     <s:String x:Key="S.Caption.Color">Färg:</s:String>
+    <s:String x:Key="S.Caption.BackgroundColor">Bakgrundsfärg:</s:String>
     <s:String x:Key="S.Caption.Outline">Översikt</s:String>
     <s:String x:Key="S.Caption.Thickness">Tjocklek:</s:String>
     <s:String x:Key="S.Caption.Layout">Layout</s:String>
@@ -1145,7 +1146,7 @@
     <s:String x:Key="S.Shapes.Fill">Fyll</s:String>
 
     <!--Editor • Mouse clicks-->
-    <s:String x:Key="S.MouseClicks">Musklick</s:String>
+    <s:String x:Key="S.MouseEvents">Musklick</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">Det finns inga upptäckta musklick i ditt projekt.</s:String>
     
     <!--Editor • Watermark-->

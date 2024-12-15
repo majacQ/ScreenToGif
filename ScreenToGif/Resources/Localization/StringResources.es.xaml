@@ -99,7 +99,7 @@
     <s:String x:Key="S.Command.KeyStrokes">Inserta las teclas pulsadas durante la grabación</s:String>
     <s:String x:Key="S.Command.FreeDrawing">Dibujar formas libres</s:String>
     <s:String x:Key="S.Command.Shapes">Añadir formas</s:String>
-    <s:String x:Key="S.Command.MouseClicks">Clicks de raton</s:String>
+    <s:String x:Key="S.Command.MouseEvents">Clicks de raton</s:String>
     <s:String x:Key="S.Command.Watermark">Seleccione una imagen y añada como marca de agua</s:String>
     <s:String x:Key="S.Command.Border">Añadir bordes</s:String>
     <s:String x:Key="S.Command.Shadow">Añadir sombra paralela</s:String>
@@ -132,7 +132,7 @@
     <s:String x:Key="S.StartUp.Editor">Editor</s:String>
     <s:String x:Key="S.StartUp.Editor.Tooltip">Abrir la ventana de edición, el punto central de esta app, donde editaras tus grabaciones.</s:String>
     <s:String x:Key="S.StartUp.Options">Opciones</s:String>
-    <s:String x:Key="S.StartUp.NewRelease">Nueva versión disponible • {0}</s:String>
+    <s:String x:Key="S.StartUp.NewRelease">Nueva versión disponible</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Descargar la última version de ScreenToGif</s:String>
 
     <!--Updater-->
@@ -758,16 +758,16 @@
     <s:String x:Key="S.Editor.Welcome.NewRecorder">¿Te gustaria probar la nueva grabadora?, Ve a "Opciones > Grabador", para activarlo.</s:String>
     
     <!--Editor • File tab • New-->
-    <s:String x:Key="S.Editor.File.New.Recording">Grabando</s:String>
-    <s:String x:Key="S.Editor.File.New.Webcam">Webcam&#x0d;Grabando</s:String>
-    <s:String x:Key="S.Editor.File.New.Board">Pizarra&#x0d;Grabando</s:String>
+    <s:String x:Key="S.Editor.File.New.Recording">Grabación</s:String>
+    <s:String x:Key="S.Editor.File.New.Webcam">Grabación de&#x0d;Webcam</s:String>
+    <s:String x:Key="S.Editor.File.New.Board">Grabación de&#x0d;Pizarra</s:String>
     <s:String x:Key="S.Editor.File.Blank">En Blanco</s:String>
     <s:String x:Key="S.Editor.File.New">Nuevo</s:String>
     
     <!--Editor • File tab • Insert-->
-    <s:String x:Key="S.Editor.File.Insert.Recording">Grabando</s:String>
-    <s:String x:Key="S.Editor.File.Insert.Webcam">Webcam&#x0d;Grabando</s:String>
-    <s:String x:Key="S.Editor.File.Insert.Board">Pizarra&#x0d;Grabando</s:String>
+    <s:String x:Key="S.Editor.File.Insert.Recording">Grabación</s:String>
+    <s:String x:Key="S.Editor.File.Insert.Webcam">Grabación de&#x0d;Webcam</s:String>
+    <s:String x:Key="S.Editor.File.Insert.Board">Grabación de&#x0d;Pizarra</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Media</s:String>
     <s:String x:Key="S.Editor.File.Insert">Insertar</s:String>
     
@@ -1145,7 +1145,7 @@
     <s:String x:Key="S.Shapes.Fill">Relleno</s:String>
 
     <!--Editor • Mouse clicks-->
-    <s:String x:Key="S.MouseClicks">Clicks de Raton</s:String>
+    <s:String x:Key="S.MouseEvents">Clicks de Raton</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">No se detectan clics con el ratón en el proyecto.</s:String>
     
     <!--Editor • Watermark-->

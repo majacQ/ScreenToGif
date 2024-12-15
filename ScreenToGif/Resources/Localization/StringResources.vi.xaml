@@ -99,7 +99,7 @@
     <!--<s:String x:Key="S.Command.KeyStrokes">Inserts keys pressed during the recording</s:String>-->
     <!--<s:String x:Key="S.Command.FreeDrawing">Draw free forms</s:String>-->
     <!--<s:String x:Key="S.Command.Shapes">Add shapes</s:String>-->
-    <!--<s:String x:Key="S.Command.MouseClicks">Mouse clicks</s:String>-->
+    <!--<s:String x:Key="S.Command.MouseEvents">Mouse clicks</s:String>-->
     <!--<s:String x:Key="S.Command.Watermark">Select an image and add as watermark</s:String>-->
     <!--<s:String x:Key="S.Command.Border">Add borders</s:String>-->
     <!--<s:String x:Key="S.Command.Shadow">Add drop shadow</s:String>-->
@@ -132,7 +132,7 @@
     <s:String x:Key="S.StartUp.Editor">Chỉnh sửa</s:String>
     <s:String x:Key="S.StartUp.Editor.Tooltip">Mở cửa sổ chỉnh sửa, trung tâm của ứng dụng này, nơi bạn có thể bắt đầu và chỉnh sửa quay màn hình mới.</s:String>
     <s:String x:Key="S.StartUp.Options">Các tùy chọn</s:String>
-    <s:String x:Key="S.StartUp.NewRelease">Phát hành mới đã sẵn sàng • {0}</s:String>
+    <s:String x:Key="S.StartUp.NewRelease">Phát hành mới đã sẵn sàng</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Tải về phiên bản mới nhất của ScreenToGif.</s:String>
 
     <!--Updater-->
@@ -247,7 +247,7 @@
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Interval">Each frame will be captured in interval of {0}.</s:String>-->
     
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
-    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no aditional plug-ins.</s:String>-->
+    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no additional plug-ins.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File">Save to&#10;file</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
@@ -1093,6 +1093,7 @@
     <s:String x:Key="S.Caption.Weight">Độ đậm nét:</s:String>
     <s:String x:Key="S.Caption.Size">Cỡ chữ:</s:String>
     <s:String x:Key="S.Caption.Color">Màu sắc:</s:String>
+    <s:String x:Key="S.Caption.BackgroundColor">Màu nền:</s:String>
     <s:String x:Key="S.Caption.Outline">Đường bao</s:String>
     <s:String x:Key="S.Caption.Thickness">Chiều dày:</s:String>
     <s:String x:Key="S.Caption.Layout">Bố trí</s:String>
@@ -1145,7 +1146,7 @@
     <s:String x:Key="S.Shapes.Fill">Làm đầy</s:String>
 
     <!--Editor • Mouse clicks-->
-    <s:String x:Key="S.MouseClicks">Các click chuột</s:String>
+    <s:String x:Key="S.MouseEvents">Các click chuột</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">Không có phát hiện click chuột trong dự án của bạn.</s:String>
     
     <!--Editor • Watermark-->

@@ -99,7 +99,7 @@
     <!--<s:String x:Key="S.Command.KeyStrokes">Inserts keys pressed during the recording</s:String>-->
     <!--<s:String x:Key="S.Command.FreeDrawing">Draw free forms</s:String>-->
     <!--<s:String x:Key="S.Command.Shapes">Add shapes</s:String>-->
-    <!--<s:String x:Key="S.Command.MouseClicks">Mouse clicks</s:String>-->
+    <!--<s:String x:Key="S.Command.MouseEvents">Mouse clicks</s:String>-->
     <!--<s:String x:Key="S.Command.Watermark">Select an image and add as watermark</s:String>-->
     <!--<s:String x:Key="S.Command.Border">Add borders</s:String>-->
     <!--<s:String x:Key="S.Command.Shadow">Add drop shadow</s:String>-->
@@ -132,7 +132,7 @@
     <s:String x:Key="S.StartUp.Editor">Editor</s:String>
     <s:String x:Key="S.StartUp.Editor.Tooltip">Abre la ventana del editor, el punto central de esta aplicación, en donde podés iniciar y editar una nueva grabación.</s:String>
     <s:String x:Key="S.StartUp.Options">Configuración</s:String>
-    <s:String x:Key="S.StartUp.NewRelease">Nuevo lanzamiento disponible • {0}</s:String>
+    <s:String x:Key="S.StartUp.NewRelease">Nuevo lanzamiento disponible</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Descarga la última versión de ScreenToGif.</s:String>
 
     <!--Updater-->
@@ -247,7 +247,7 @@
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Interval">Each frame will be captured in interval of {0}.</s:String>-->
     
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
-    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no aditional plug-ins.</s:String>-->
+    <!--<s:String x:Key="S.Options.Recorder.Bitblt.Info">Use the older capture method, which is slower and may not work capturing games,&#10;but requires no additional plug-ins.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File">Save to&#10;file</s:String>-->
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
@@ -1093,6 +1093,7 @@
     <s:String x:Key="S.Caption.Weight">Peso:</s:String>
     <s:String x:Key="S.Caption.Size">Tamaño:</s:String>
     <s:String x:Key="S.Caption.Color">Color:</s:String>
+    <s:String x:Key="S.Caption.BackgroundColor">Color de fondo:</s:String>
     <s:String x:Key="S.Caption.Outline">Contorno</s:String>
     <s:String x:Key="S.Caption.Thickness">Grosor:</s:String>
     <s:String x:Key="S.Caption.Layout">Diseño</s:String>
@@ -1145,7 +1146,7 @@
     <!--<s:String x:Key="S.Shapes.Fill">Fill</s:String>-->
 
     <!--Editor • Mouse clicks-->
-    <s:String x:Key="S.MouseClicks">Clics del mouse</s:String>
+    <s:String x:Key="S.MouseEvents">Clics del mouse</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">No se detectaron clics del mouse en tu proyecto</s:String>
     
     <!--Editor • Watermark-->
